@@ -1,0 +1,45 @@
+<ion-view title="Question {{question.id + 1}}">
+  <ion-content class="padding">
+    <h3>What do the top 3 pictures relate to? (slide or click for more)</h3>
+    <div class="row">
+      <div class="col">
+        <ion-slide-box on-slide-changed="slideChanged($index)" does-continue="true" show-pager="false">
+          <!-- first slide -->
+          <ion-slide>
+            <div style="text-align:center">
+              <img ng-click="nextSlide()" src="../img/{{question.image1}}" height="250" width="250"></img>
+            </div>
+          </ion-slide>
+          <ion-slide>
+            <div style="text-align:center">
+              <img ng-click="nextSlide()" src="../img/{{question.image2}}" height="250" width="250"></img>
+            </div>
+          </ion-slide>
+          <ion-slide>
+            <div style="text-align:center">
+              <img ng-click="nextSlide()" src="../img/{{question.image3}}" height="250" width="250"></img>
+            </div>
+          </ion-slide>
+        </ion-slide-box>
+      </div>
+    </div>
+    <div style="margin: 0 auto; width:86px; font-size:48px">
+        <i class="icon ion-arrow-left-a" ng-click="prevSlide()"></i>
+        <i class="icon ion-arrow-right-a" ng-click="nextSlide()"></i>
+    </div>
+    <div class="card">
+      <h2 style="background-color: #4A87EE; text-align: center; color: white;">Choices</h2>
+      <div class="row item item-divider">
+        <div class="col-33" style="text-align:center">
+          <a href="#/tab/questions/{{count}}"><img id = "a1" ng-click="showAnswer($event)" src="../img/{{question.image4}}" height="150" width="150"></img></a>
+        </div>
+        <div class="col-33" style="text-align:center">
+          <a href="#/tab/questions/{{count}}"><img id = "a2" ng-click="showAnswer($event)" src="../img/{{question.image5}}" height="150" width="150" ></img></a>
+        </div>
+        <div class="col-33" style="text-align:center">
+          <a href="#/tab/questions/{{count}}"><img id = "a3" ng-click="showAnswer($event)" src="../img/{{question.image6}}" height="150" width="150" ></img></a>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
