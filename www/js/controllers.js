@@ -7,7 +7,7 @@ angular.module('starter.controllers', [])
   $scope.showTutorial = function() {
    var alertPopup = $ionicPopup.alert({
      title: 'Tutorial',
-     template: 'Click or drag the top clues to get more hints.<br/><br/>The more hints that you use, the less points you\'ll earn.'
+     template: 'Click or drag the top clues to get more hints.<br/><br/>Click the picture below that best fits the hints above.<br/><br/>The more hints that you use, the less points you\'ll earn.'
    });
  };
 
