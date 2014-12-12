@@ -17,10 +17,15 @@ A bit of prototyped and unfinished work for later:
 Link to the site:
 Site is not hosted.  You can also use the readme on github in addition to the following directions.
 To use the app:
+
 1 - Install Nodejs to get the node package manager (NPM):
 http://nodejs.org/
+
 2 - Follow the directions on the following page to install Ionic
 http://ionicframework.com/getting-started/
+
 3 - Clone our github repo (or download it) to a folder.
+
 4 - Navigate to the page in a command window and put in the command “ionic serve”
+
 5 - View the page and play the app! 
