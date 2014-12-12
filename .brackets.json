@@ -1,0 +1,8 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/Users/joewise/workspace/recognitionSafe/recognition1/platforms/android/assets/www/lib/ionic/js/angular-ui/angular-ui-router.js",
+        "C:/Users/joewise/workspace/fall14-recognize1/platforms/android/assets/www/lib/ionic/js/angular-ui/angular-ui-router.min.js",
+        "C:/Users/joewise/workspace/fall14-recognize1/platforms/android/assets/www/lib/ionic/js/ionic.min.js",
+        "C:/Users/joewise/workspace/fall14-recognize1/platforms/android/assets/www/lib/ionic/js/ionic.js"
+    ]
+}

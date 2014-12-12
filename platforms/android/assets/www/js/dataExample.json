@@ -1,0 +1,24 @@
+[
+		{
+			"question" 		 : "What is my name",
+			"answer1": "Who cares Answer11",
+			"answer2"	:  "who cares answer21",
+            "answer3"	:  "who cares answer31",
+            "image"	:  "apple"
+		},
+        {
+			"question" 		 : "What is my name again2",
+			"answer1": "Who cares Answer12",
+			"answer2"	:  "who cares answer22",
+            "answer3"	:  "who cares answer32",
+            "image"	:  "ionic"
+		},
+        {
+			"question" 		 : "What is my name again3",
+			"answer1": "Who cares Answer13",
+			"answer2"	:  "who cares answer23",
+            "answer3"	:  "who cares answer33",
+            "image"	:  "Q1_Flag_Of_Croatia"
+		}
+
+]
