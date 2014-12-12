@@ -1,0 +1,1 @@
+These are java files that can be used a server side backend to query the MySQL tables once they are installed. The java code would need to be modified to point to the correct services however.
